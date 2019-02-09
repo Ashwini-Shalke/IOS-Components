@@ -10,12 +10,15 @@ import UIKit
 
 class SecondViewController: UIViewController {
     
-    
+    // Dismiss Button created programmatically
     let dismissButton : UIButton = {
         let dismiss = UIButton()
         dismiss.translatesAutoresizingMaskIntoConstraints = false
-        dismiss.backgroundColor = UIColor.blue
-       // dismiss.in
+        dismiss.backgroundColor = UIColor.gray
+        dismiss.setTitle("Dismiss", for: .normal)
+        dismiss.titleLabel?.font = UIFont.boldSystemFont(ofSize: 15)
+        dismiss.isEnabled = true
+        dismiss.isUserInteractionEnabled = true
         return dismiss
     }()
 
@@ -24,21 +27,21 @@ class SecondViewController: UIViewController {
         
         view.addSubview(dismissButton)
         layout()
-        // Do any additional setup after loading the view.
+        dismissButton.addTarget(self, action: #selector(dismiss_clicked), for: UIControlEvents.allTouchEvents)
+        // Do any additional setup after loading the view
     }
     
     func layout(){
-        dismissButton.widthAnchor.constraint(equalToConstant: 343).isActive = true
-        dismissButton.heightAnchor.constraint(equalToConstant: 20).isActive = true
+        dismissButton.widthAnchor.constraint(equalToConstant: 150).isActive = true
+        dismissButton.heightAnchor.constraint(equalToConstant: 25).isActive = true
         dismissButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 300).isActive = true
-        dismissButton.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 15).isActive = true
+        dismissButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
     }
     
-    func dismissView(){
-        dismiss(animated: true)
-        
+    // dismiss the current screen
+    @objc func dismiss_clicked()
+    {
+        self.dismiss(animated: true, completion: nil)
     }
-    
-
     
 }
