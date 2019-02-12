@@ -38,7 +38,7 @@ class ViewController: UIViewController {
     func layout(){
         goToButton.widthAnchor.constraint(equalToConstant: 250).isActive = true
         goToButton.heightAnchor.constraint(equalToConstant: 25).isActive = true
-        goToButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 300).isActive = true
+        goToButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 400).isActive = true
         goToButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
     }
     
@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     @objc func jump_secondViewController()
     {
         //accessing ViewContoller using it StoryBoard ID
-        var secondView:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SecondViewController")
+        let secondView:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SecondViewController")
         
         self.present(secondView, animated: true, completion: nil)
     }
