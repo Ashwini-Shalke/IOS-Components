@@ -24,12 +24,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // programatically creating Navigation Contoller
         
-       /* let NoNavigationView : UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "NoNavigationView")
+        let NoNavigationView : UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "NoNavigationView")
         
         let navigationController : UINavigationController = UINavigationController(rootViewController: NoNavigationView)
         
-        window?.rootViewController = navigationController */
-        
+        window?.rootViewController = navigationController
+    
        return true
     }
 
