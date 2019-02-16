@@ -24,12 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // programatically creating Navigation Contoller
         
-        let NoNavigationView : UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "NoNavigationView")
-        
-        let navigationController : UINavigationController = UINavigationController(rootViewController: NoNavigationView)
-        
-        window?.rootViewController = navigationController
-    
+        let AutolayoutView: UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "AutolayoutView")
+        window?.rootViewController = AutolayoutView
        return true
     }
 
