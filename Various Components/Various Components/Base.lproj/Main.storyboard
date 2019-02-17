@@ -151,25 +151,38 @@
                                         <rect key="frame" x="205" y="18" width="153.33333333333337" height="128"/>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zbL-gz-flk">
-                                        <rect key="frame" x="63" y="154" width="240" height="188"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zbL-gz-flk">
+                                        <rect key="frame" x="17" y="154" width="154" height="436"/>
+                                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b80-o8-F9f">
+                                        <rect key="frame" x="204" y="154" width="154" height="436"/>
+                                        <color key="backgroundColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="c9I-pJ-3xf" firstAttribute="centerX" secondItem="03g-bC-c6m" secondAttribute="centerX" id="2qv-vP-KGT"/>
+                                    <constraint firstItem="c9I-pJ-3xf" firstAttribute="top" secondItem="b80-o8-F9f" secondAttribute="bottom" constant="8" id="8ey-2J-Guf"/>
                                     <constraint firstItem="UyL-qc-eXw" firstAttribute="centerY" secondItem="P2B-q6-6IX" secondAttribute="centerY" id="9NL-cR-SQs"/>
                                     <constraint firstItem="P2B-q6-6IX" firstAttribute="leading" secondItem="UyL-qc-eXw" secondAttribute="trailing" constant="33.333333333333314" id="Aw4-4d-HWS"/>
+                                    <constraint firstItem="zbL-gz-flk" firstAttribute="leading" secondItem="03g-bC-c6m" secondAttribute="leading" constant="17" id="BiZ-hx-Ia7"/>
+                                    <constraint firstAttribute="trailing" secondItem="b80-o8-F9f" secondAttribute="trailing" constant="9" id="DJl-wt-q90"/>
+                                    <constraint firstItem="b80-o8-F9f" firstAttribute="width" secondItem="zbL-gz-flk" secondAttribute="width" id="FJ8-1S-dNp"/>
                                     <constraint firstItem="P2B-q6-6IX" firstAttribute="leading" secondItem="UyL-qc-eXw" secondAttribute="trailing" constant="33.333333333333314" id="Mdz-DS-ivG"/>
                                     <constraint firstItem="UyL-qc-eXw" firstAttribute="width" secondItem="P2B-q6-6IX" secondAttribute="width" id="Pdj-1O-dh0"/>
                                     <constraint firstItem="c9I-pJ-3xf" firstAttribute="leading" secondItem="03g-bC-c6m" secondAttribute="leading" id="Qyf-t0-g0x"/>
                                     <constraint firstAttribute="trailing" secondItem="c9I-pJ-3xf" secondAttribute="trailing" id="Qzu-vT-mr4"/>
+                                    <constraint firstItem="b80-o8-F9f" firstAttribute="height" secondItem="zbL-gz-flk" secondAttribute="height" id="RX5-dO-FYL"/>
                                     <constraint firstItem="UyL-qc-eXw" firstAttribute="height" secondItem="P2B-q6-6IX" secondAttribute="height" id="Rey-i8-HgQ"/>
+                                    <constraint firstItem="b80-o8-F9f" firstAttribute="top" secondItem="P2B-q6-6IX" secondAttribute="bottom" constant="8" id="Rou-cr-kzB"/>
                                     <constraint firstItem="hbH-Lp-X6u" firstAttribute="top" secondItem="03g-bC-c6m" secondAttribute="top" constant="18" id="UBK-gS-y0z"/>
+                                    <constraint firstItem="zbL-gz-flk" firstAttribute="top" secondItem="UyL-qc-eXw" secondAttribute="bottom" constant="8" id="Z8r-H1-P23"/>
+                                    <constraint firstItem="c9I-pJ-3xf" firstAttribute="top" secondItem="zbL-gz-flk" secondAttribute="bottom" constant="8" id="b11-C5-Uf7"/>
                                     <constraint firstItem="c9I-pJ-3xf" firstAttribute="top" secondItem="03g-bC-c6m" secondAttribute="top" constant="598" id="bK8-iR-CNw"/>
                                     <constraint firstItem="c9I-pJ-3xf" firstAttribute="bottom" secondItem="03g-bC-c6m" secondAttribute="bottomMargin" id="c3k-xn-s73"/>
+                                    <constraint firstItem="b80-o8-F9f" firstAttribute="leading" secondItem="zbL-gz-flk" secondAttribute="trailing" constant="33" id="ey8-iL-avE"/>
+                                    <constraint firstAttribute="bottom" secondItem="c9I-pJ-3xf" secondAttribute="bottom" constant="8" id="g22-gj-q9N"/>
                                     <constraint firstItem="P2B-q6-6IX" firstAttribute="top" secondItem="03g-bC-c6m" secondAttribute="top" constant="18" id="kDA-30-RZw"/>
                                 </constraints>
                             </scrollView>
@@ -178,7 +191,9 @@
                         <constraints>
                             <constraint firstItem="03g-bC-c6m" firstAttribute="top" secondItem="HbQ-XP-smG" secondAttribute="bottom" constant="7" id="3e4-DJ-x7y"/>
                             <constraint firstItem="3pu-5R-Mce" firstAttribute="bottom" secondItem="03g-bC-c6m" secondAttribute="bottom" constant="12" id="85N-Pf-0DA"/>
+                            <constraint firstItem="zbL-gz-flk" firstAttribute="leading" secondItem="3pu-5R-Mce" secondAttribute="leading" constant="44" id="D1F-3D-BQJ"/>
                             <constraint firstItem="3pu-5R-Mce" firstAttribute="trailing" secondItem="P2B-q6-6IX" secondAttribute="trailing" constant="28.666666666666629" id="G93-rl-riY"/>
+                            <constraint firstItem="3pu-5R-Mce" firstAttribute="trailing" secondItem="b80-o8-F9f" secondAttribute="trailing" constant="29" id="Gea-I5-FCi"/>
                             <constraint firstItem="hbH-Lp-X6u" firstAttribute="leading" secondItem="3pu-5R-Mce" secondAttribute="leading" constant="44.333333333333343" id="Lvy-sc-d25"/>
                             <constraint firstItem="03g-bC-c6m" firstAttribute="trailing" secondItem="HbQ-XP-smG" secondAttribute="trailing" id="PjX-YL-Iph"/>
                             <constraint firstItem="03g-bC-c6m" firstAttribute="trailing" secondItem="cHt-YI-aww" secondAttribute="trailingMargin" id="QPG-qY-hi4"/>
@@ -191,7 +206,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sNU-ex-Yey" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1208.6956521739132" y="1022.2826086956522"/>
+            <point key="canvasLocation" x="-704.34782608695662" y="896.73913043478262"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ell-4R-bg0">
