@@ -153,7 +153,7 @@
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zbL-gz-flk">
                                         <rect key="frame" x="17" y="154" width="154" height="436"/>
-                                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.40111176397008336" green="0.57488495110000004" blue="0.54358437936420789" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b80-o8-F9f">
                                         <rect key="frame" x="204" y="154" width="154" height="436"/>
