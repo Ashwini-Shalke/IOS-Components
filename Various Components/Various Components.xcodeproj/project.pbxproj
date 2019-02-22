@@ -13,6 +13,7 @@
 		3309168F2205E7A600A977DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3309168D2205E7A600A977DD /* Main.storyboard */; };
 		330916912205E7A900A977DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 330916902205E7A900A977DD /* Assets.xcassets */; };
 		330916942205E7A900A977DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330916922205E7A900A977DD /* LaunchScreen.storyboard */; };
+		33A0A377222051A80095D395 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A0A376222051A80095D395 /* MyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		330916902205E7A900A977DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		330916932205E7A900A977DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		330916952205E7A900A977DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A0A376222051A80095D395 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				330916892205E7A600A977DD /* AppDelegate.swift */,
+				33A0A376222051A80095D395 /* MyTableViewController.swift */,
 				33029CB5220C944A0057E94E /* SecondViewController.swift */,
 				3309168B2205E7A600A977DD /* ViewController.swift */,
 				3309168D2205E7A600A977DD /* Main.storyboard */,
@@ -141,6 +144,7 @@
 				33029CB6220C944A0057E94E /* SecondViewController.swift in Sources */,
 				3309168C2205E7A600A977DD /* ViewController.swift in Sources */,
 				3309168A2205E7A600A977DD /* AppDelegate.swift in Sources */,
+				33A0A377222051A80095D395 /* MyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
